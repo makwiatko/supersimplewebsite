@@ -8,9 +8,9 @@ h1 {
 }
 
 .button {
+  background-color: Lavender;
   border-color: MediumPurple;
   color: RebeccaPurple;
-  margin-left: 20px;
 }
 
 .button:hover {
