@@ -8,8 +8,9 @@ h1 {
 }
 
 button {
-  border-color: MediumPurple
-  color: RebeccaPurple
+  border-color: MediumPurple;
+  color: RebeccaPurple;
+  margin-left: 20px;
 }
 
 .button:hover {
