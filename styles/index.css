@@ -5,7 +5,9 @@ body {
 
 h1 {
   color: CornflowerBlue;
-  margin-left: 20px;
+  font-size: 60px;
+  margin: 100px 20px;
+  text-align: center;
 }
 
 p {
@@ -15,20 +17,25 @@ p {
   margin: 0 20px;
 }
 
+a {
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+
 .button {
   background-color: AliceBlue;
-  color: CornflowerBlue; 
   border: 2px solid CornflowerBlue;
-  border-radius: 12px;
-  padding: 16px 32px;
+  border-radius: 6px;
+  color: CornflowerBlue; 
+  cursor: pointer;
+  display: inline-block;
+  font-size: 20px;
+  margin: auto;
+  padding: 15px;
+  transition-duration: 0.4s;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin-left: 20px;
-  padding: 10px;
-  transition-duration: 0.4s;
-  cursor: pointer;
 }
 
 .button:hover {
